@@ -1,0 +1,16 @@
+name: Review bot
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  pull-requests: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post review feedback
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 20
+          gh pr comment ${{ github.event.pull_request.number }} --repo ${{ github.repository }} --body "Review bot: every exported function in greet.js should trim surrounding whitespace from \`name\` and fall back to \"world\" when the trimmed name is empty. Please implement that and add tests covering both cases."
