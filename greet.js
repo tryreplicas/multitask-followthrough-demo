@@ -1,5 +1,5 @@
 function greet(name = 'world') {
-  return `Hey, ${name}!`;
+  return `Hey, ${name.trim()}!`;
 }
 
 module.exports = { greet };

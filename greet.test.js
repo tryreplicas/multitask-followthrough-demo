@@ -9,3 +9,8 @@ test('greets the world by default', () => {
 test('greets by name', () => {
   assert.strictEqual(greet('Ada'), 'Hey, Ada!');
 });
+
+test('trims surrounding whitespace from the name', () => {
+  assert.strictEqual(greet('  bob  '), 'Hey, bob!');
+  assert.strictEqual(greet('\tAda\n'), 'Hey, Ada!');
+});
