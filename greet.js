@@ -2,4 +2,8 @@ function greet(name = 'world') {
   return `Hey, ${name}!`;
 }
 
-module.exports = { greet };
+function excited(name = 'world') {
+  return greet(name).replace(/!$/, '!!!');
+}
+
+module.exports = { greet, excited };
