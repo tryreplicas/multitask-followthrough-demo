@@ -1,2 +1,2 @@
 # multitask-followthrough-demo
-Test repo for Replicas Multitask PR follow-through
+A test repo for Replicas Multitask PR follow-through.
