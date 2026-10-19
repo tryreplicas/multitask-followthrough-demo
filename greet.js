@@ -2,4 +2,8 @@ function greet(name = 'world') {
   return `Hey, ${name}!`;
 }
 
-module.exports = { greet };
+function shout(name = 'world') {
+  return greet(name).toUpperCase();
+}
+
+module.exports = { greet, shout };
