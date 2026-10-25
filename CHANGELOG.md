@@ -7,3 +7,4 @@
 - Added `docs/b1.md`, which explains how background jobs are retried after a worker crash.
 - Update README title with tagline A.
 - Rows demo page
+- Rows demo part two
