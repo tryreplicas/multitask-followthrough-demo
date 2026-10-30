@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- docs: R2 J5 merge test C
 - docs: R2 J5 merge test A
 - `greet()` now greets with "Hi" instead of "Hello" (e.g. `greet("world")` returns "Hi, world!").
 - `greet()` now greets with "Hey" instead of "Hi" (e.g. `greet("world")` returns "Hey, world!").
