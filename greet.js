@@ -6,4 +6,8 @@ function farewell(name = 'friend') {
   return `Bye, ${name}!`;
 }
 
-module.exports = { greet, farewell };
+function shout(name = 'world') {
+  return `${greet(name).slice(0, -1).toUpperCase()}!!!`;
+}
+
+module.exports = { greet, farewell, shout };
