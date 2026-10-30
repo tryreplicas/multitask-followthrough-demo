@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- docs: R2 J5 merge test B
 - `greet()` now greets with "Hi" instead of "Hello" (e.g. `greet("world")` returns "Hi, world!").
 - `greet()` now greets with "Hey" instead of "Hi" (e.g. `greet("world")` returns "Hey, world!").
 - Added `shout(name)` to return the greeting in uppercase with three exclamation marks.
