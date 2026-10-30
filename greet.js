@@ -2,4 +2,8 @@ function greet(name = 'world') {
   return `Hey, ${name}!`;
 }
 
-module.exports = { greet };
+function farewell(name = 'friend') {
+  return `Bye, ${name}!`;
+}
+
+module.exports = { greet, farewell };

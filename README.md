@@ -1,2 +1,8 @@
 # Multitask follow-through demo — tagline A
 Test repo for Replicas Multitask PR follow-through
+
+Example:
+
+```js
+farewell('Ada') // => 'Bye, Ada!'
+```
