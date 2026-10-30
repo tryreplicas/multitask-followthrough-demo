@@ -13,3 +13,4 @@
 - Added `farewell(name)` to `greet.js`, which returns "Bye, <name>!" and defaults to "friend"; added a README example.
 - Added `docs/round2-greeting.md`, a one-line greeting page.
 - Added `docs/r2-j5-header.md`, a one-line header page.
+- docs: r2 j5 header page
