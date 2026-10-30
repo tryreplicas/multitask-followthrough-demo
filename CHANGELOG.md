@@ -8,3 +8,4 @@
 - Update README title with tagline A.
 - Rows demo page
 - Added `docs/j5-run1.md`, a one-sentence page describing what a greeting is.
+- Added `docs/round2-farewell.md`, a one-line farewell page.
