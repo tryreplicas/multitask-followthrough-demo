@@ -14,3 +14,4 @@
 - Added `docs/round2-farewell.md`, a one-line farewell page.
 - Added `farewell(name)` to `greet.js`, which returns "Bye, <name>!" and defaults to "friend"; added a README example.
 - Added `docs/round2-greeting.md`, a one-line greeting page.
+- C2-08b progress test
