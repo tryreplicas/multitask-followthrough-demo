@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added `docs/r2-j5-zero-5.md`, a three-line sample file containing `a`, `b`, and `c`.
 - docs: R2 J5 merge test C
 - docs: R2 J5 merge test A
 - `greet()` now greets with "Hi" instead of "Hello" (e.g. `greet("world")` returns "Hi, world!").
