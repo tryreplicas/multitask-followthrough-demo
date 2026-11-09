@@ -22,4 +22,8 @@ function cheer(name) {
   return greet(name) + '!';
 }
 
-module.exports = { greet, farewell, shout, wave, whisper, cheer };
+function sing(name) {
+  return 'la la ' + greet(name);
+}
+
+module.exports = { greet, farewell, shout, wave, whisper, cheer, sing };

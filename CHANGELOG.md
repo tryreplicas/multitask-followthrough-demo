@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added `sing(name)`, which returns `"la la " + greet(name)`.
 - `shout(name)` now returns `greet(name).toUpperCase()` (e.g. `shout("Ada")` returns "HEY, ADA!"); README title changed to "Greeter (shout edition)".
 - Added `wave(name)`, which returns `"hi " + greet(name)`.
 - Added `whisper(name)`, which returns `greet(name).toLowerCase()`.
