@@ -10,12 +10,12 @@ test('greets by name', () => {
   assert.strictEqual(greet('Ada'), 'Hey, Ada!');
 });
 
-test('shout: by name with three exclamation marks', () => {
-  assert.strictEqual(shout('Ada'), 'HEY, ADA!!!');
+test('shouts the greeting by name', () => {
+  assert.strictEqual(shout('Ada'), 'HEY, ADA!');
 });
 
-test('shout: default greeting', () => {
-  assert.strictEqual(shout(), 'HEY, WORLD!!!');
+test('shouts the default greeting', () => {
+  assert.strictEqual(shout(), 'HEY, WORLD!');
 });
 
 test('says farewell by name', () => {
