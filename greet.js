@@ -18,4 +18,8 @@ function whisper(name) {
   return greet(name).toLowerCase();
 }
 
-module.exports = { greet, farewell, shout, wave, whisper };
+function cheer(name) {
+  return greet(name) + '!';
+}
+
+module.exports = { greet, farewell, shout, wave, whisper, cheer };
