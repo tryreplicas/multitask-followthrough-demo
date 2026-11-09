@@ -3,6 +3,8 @@
 ## Unreleased
 
 - `shout(name)` now returns `greet(name).toUpperCase()` (e.g. `shout("Ada")` returns "HEY, ADA!"); README title changed to "Greeter (shout edition)".
+- Added `wave(name)`, which returns `"hi " + greet(name)`.
+
 - docs: R2 J5 merge test C
 - docs: R2 J5 merge test A
 - `greet()` now greets with "Hi" instead of "Hello" (e.g. `greet("world")` returns "Hi, world!").

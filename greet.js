@@ -10,4 +10,8 @@ function shout(name) {
   return greet(name).toUpperCase();
 }
 
-module.exports = { greet, farewell, shout };
+function wave(name) {
+  return 'hi ' + greet(name);
+}
+
+module.exports = { greet, farewell, shout, wave };
