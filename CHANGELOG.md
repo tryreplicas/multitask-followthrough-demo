@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added `docs/test-j.md`, a one-line test page.
 - Added `docs/test-h.md`, a one-line test page.
 - Added `docs/test-g.md`, a one-line test page.
 - Added `murmur(name)`, which returns `"... " + greet(name)` (e.g. `murmur("Ada")` returns "... Hey, Ada!"); README title changed to "Greeter (sing & murmur edition)".
@@ -25,4 +26,3 @@
 - Added `docs/round2-greeting.md`, a one-line greeting page.
 - C2-08b progress test
 - r2-qa-a progress test
-- Added `docs/test-j.md`, a one-line test page.
