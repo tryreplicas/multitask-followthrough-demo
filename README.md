@@ -1,4 +1,4 @@
-# Multitask follow-through demo — tagline A
+# Greeter (shout edition)
 Test repo for Replicas Multitask PR follow-through
 
 Example:
