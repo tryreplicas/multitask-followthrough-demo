@@ -1,6 +1,11 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { greet, farewell, shout } = require('./greet');
+const { greet, farewell, shout, wave } = require('./greet');
+
+test('wave prefixes the greeting with hi', () => {
+  assert.strictEqual(wave('Ada'), 'hi Hey, Ada!');
+  assert.strictEqual(wave(), 'hi Hey, world!');
+});
 
 test('greets the world by default', () => {
   assert.strictEqual(greet(), 'Hey, world!');
