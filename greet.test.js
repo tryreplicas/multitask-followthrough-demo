@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { greet, farewell, shout, wave, whisper, cheer, sing } = require('./greet');
+const { greet, farewell, shout, wave, whisper, cheer, sing, murmur } = require('./greet');
 
 test('sing prefixes the greeting with la la', () => {
   assert.strictEqual(sing('Ada'), 'la la Hey, Ada!');
@@ -42,4 +42,8 @@ test('whisper: lowercases the greeting', () => {
 
 test('cheer: appends an exclamation mark to the greeting', () => {
   assert.strictEqual(cheer('Ada'), 'Hey, Ada!!');
+});
+
+test('murmur prefixes the greeting with an ellipsis', () => {
+  assert.strictEqual(murmur('Ada'), '... Hey, Ada!');
 });
