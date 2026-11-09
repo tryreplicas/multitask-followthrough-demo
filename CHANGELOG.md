@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added `docs/test-h.md`, a one-line test page.
 - Added `docs/test-g.md`, a one-line test page.
 - Added `murmur(name)`, which returns `"... " + greet(name)` (e.g. `murmur("Ada")` returns "... Hey, Ada!"); README title changed to "Greeter (sing & murmur edition)".
 - Added `sing(name)`, which returns `"la la " + greet(name)`.
