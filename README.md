@@ -1,4 +1,4 @@
-# Greeter (sing edition)
+# Greeter (sing & murmur edition)
 Test repo for Replicas Multitask PR follow-through
 
 Example:
